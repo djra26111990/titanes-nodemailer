@@ -1,0 +1,25 @@
+{
+  "name": "nodemailer-titanes",
+  "version": "0.9.1",
+  "author": "Daniel Rivas - https://github.com/djra26111990",
+  "keywords": [
+    "express",
+    "nodemailer"
+  ],
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.7",
+    "nodemailer": "^6.4.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
