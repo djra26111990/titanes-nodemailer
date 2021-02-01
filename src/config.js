@@ -1,6 +1,4 @@
 const nodemailer = require('nodemailer');
-const dotenv = require('dotenv');
-dotenv.config();
 
 const PORT_SMTP_STRING = process.env.EMAIL_SMTP_PORT
 const SMTP_PORT = parseInt(PORT_SMTP_STRING)

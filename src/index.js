@@ -1,8 +1,6 @@
 const path = require('path');
 const express = require('express');
 const cors = require('cors')
-const dotenv = require('dotenv')
-dotenv.config({ silent: process.env.NODE_ENV === 'production' })
 const app = express();
 const SendRoute = require('./routes/sendRoute.route')
 
