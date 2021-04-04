@@ -5,8 +5,8 @@ const sendRoute = (req, res) => {
     const { nombreApellido, email, mensaje } = req.body;
 
     const mailOptions = {
-      from: 'Daniel Rivas <djra26111990@gmail.com>',
-      to: 'Daniel Rivas <daniel.rivas199026@gmail.com>',
+      from: `FORMULARIO CONTACTO WEB_NO-REPLY contacto@titanesfc.cl`,
+      to: 'contacto@titanesfc.cl',
       subject: `Tienes un nuevo mensaje de contácto de ${nombreApellido} `,
       html: `
       <p>Tienes un nuevo mensaje de contácto de:</p>
